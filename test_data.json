@@ -1,0 +1,90 @@
+[
+  {
+    "AttributeName": {
+      "id": 1,
+      "nazev": "Barva"
+    }
+  },
+  {
+    "AttributeValue": {
+      "id": 1,
+      "hodnota": "modrá"
+    }
+  },
+  {
+    "Attribute": {
+      "id": 1,
+      "nazev_atributu_id": 1,
+      "hodnota_atributu_id": 1
+    }
+  },
+  {
+    "AttributeName": {
+      "id": 1,
+      "zobrazit": true
+    }
+  },
+  {
+    "Product": {
+      "id": 1,
+      "nazev": "Whirlpool B TNF 5323 OX",
+      "description": "Volně stojící kombinovaná lednička se šestým smyslem. Díky tomuto šestému smyslu FreshLock dokáže obnovit teplotu 5× rychleji",
+      "cena": "21566",
+      "mena": "CZK",
+      "published_on": null,
+      "is_published": false
+    }
+  },
+  {
+    "ProductAttributes": {
+      "id": 1,
+      "attribute": 19,
+      "product": 1
+    }
+  },
+  {
+    "Image": {
+      "id": 1,
+      "obrazek": "https://free-images.com/or/4929/fridge_t_png.jpg"
+    }
+  },
+  {
+    "ProductImage": {
+      "id": 1,
+      "product": 1,
+      "obrazek_id": 1,
+      "nazev": "hlavní foto"
+    }
+  },
+  {
+    "Catalog": {
+      "id": 1,
+      "nazev": "Výprodej 2018",
+      "obrazek_id": 4,
+      "products_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "attributes_ids": [
+        2,
+        4,
+        21,
+        23
+      ]
+    }
+  },
+  {
+    "Catalog": {
+      "id": 1,
+      "products_ids": [
+        1,
+        2,
+        3,
+        5
+      ]
+    }
+  }
+]
