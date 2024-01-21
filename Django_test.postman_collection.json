@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "309f783c-2a14-4cd3-9b3c-1bec3735334a",
+		"name": "Django_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18545920",
+		"_collection_link": "https://lunar-zodiac-315828.postman.co/workspace/Team-Workspace~77f16d21-5240-43b7-8fad-217eaa4e2dd4/collection/18545920-309f783c-2a14-4cd3-9b3c-1bec3735334a?action=share&source=collection_link&creator=18545920"
+	},
+	"item": [
+		{
+			"name": "Import",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"AttributeName\": {\n      \"id\": 1,\n      \"nazev\": \"Barva\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 1,\n      \"hodnota\": \"modrá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 2,\n      \"hodnota\": \"zelená\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 3,\n      \"hodnota\": \"žlutá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 4,\n      \"hodnota\": \"růžová\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 5,\n      \"hodnota\": \"černá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 6,\n      \"hodnota\": \"bílá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 7,\n      \"hodnota\": \"hnědá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 8,\n      \"hodnota\": \"světle modrá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 9,\n      \"hodnota\": \"průhledná\"\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 2,\n      \"nazev\": \"Odolnost\",\n      \"kod\": \"durability\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 10,\n      \"hodnota\": \"žádná\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 11,\n      \"hodnota\": \"malá\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 12,\n      \"hodnota\": \"střední\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 13,\n      \"hodnota\": \"velká\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 14,\n      \"hodnota\": \"nezničitelná\"\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 3,\n      \"nazev\": \"Povrch\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 15,\n      \"hodnota\": \"hladký\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 16,\n      \"hodnota\": \"hrubý\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 17,\n      \"hodnota\": \"drsný\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 18,\n      \"hodnota\": \"jemný\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 19,\n      \"hodnota\": \"ano\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 20,\n      \"hodnota\": \"ne\"\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 1,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 1\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 2,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 2\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 3,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 3\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 4,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 4\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 5,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 5\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 6,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 6\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 7,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 7\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 8,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 8\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 9,\n      \"nazev_atributu_id\": 1,\n      \"hodnota_atributu_id\": 9\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 10,\n      \"nazev_atributu_id\": 2,\n      \"hodnota_atributu_id\": 10\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 11,\n      \"nazev_atributu_id\": 2,\n      \"hodnota_atributu_id\": 11\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 12,\n      \"nazev_atributu_id\": 2,\n      \"hodnota_atributu_id\": 12\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 13,\n      \"nazev_atributu_id\": 2,\n      \"hodnota_atributu_id\": 13\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 14,\n      \"nazev_atributu_id\": 2,\n      \"hodnota_atributu_id\": 14\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 15,\n      \"nazev_atributu_id\": 3,\n      \"hodnota_atributu_id\": 15\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 16,\n      \"nazev_atributu_id\": 3,\n      \"hodnota_atributu_id\": 16\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 17,\n      \"nazev_atributu_id\": 3,\n      \"hodnota_atributu_id\": 17\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 18,\n      \"nazev_atributu_id\": 3,\n      \"hodnota_atributu_id\": 18\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 4,\n      \"nazev\": \"displej\",\n      \"zobrazit\": true\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 1,\n      \"zobrazit\": true\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 2,\n      \"zobrazit\": true\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 3,\n      \"zobrazit\": true\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 19,\n      \"nazev_atributu_id\": 4,\n      \"hodnota_atributu_id\": 19\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 20,\n      \"nazev_atributu_id\": 4,\n      \"hodnota_atributu_id\": 20\n    }\n  },\n  {\n    \"Product\": {\n      \"id\": 1,\n      \"nazev\": \"Whirlpool B TNF 5323 OX\",\n      \"description\": \"Volně stojící kombinovaná lednička se šestým smyslem. Díky tomuto šestému smyslu FreshLock dokáže obnovit teplotu 5× rychleji\",\n      \"cena\": \"21566\",\n      \"mena\": \"CZK\",\n      \"published_on\": null,\n      \"is_published\": false\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 1,\n      \"attribute\": 19,\n      \"product\": 1\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 2,\n      \"attribute\": 4,\n      \"product\": 1\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 3,\n      \"attribute\": 18,\n      \"product\": 1\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 1,\n      \"obrazek\": \"https://free-images.com/or/4929/fridge_t_png.jpg\"\n    }\n  },\n  {\n    \"ProductImage\": {\n      \"id\": 1,\n      \"product\": 1,\n      \"obrazek_id\": 1,\n      \"nazev\": \"hlavní foto\"\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 2,\n      \"nazev\": \"plná lednice\",\n      \"obrazek\": \"https://free-images.com/or/ccc6/faulty_fridge_lighting_led_0.jpg\"\n    }\n  },\n  {\n    \"ProductImage\": {\n      \"id\": 2,\n      \"product\": 1,\n      \"obrazek_id\": 2,\n      \"nazev\": \"galerie\"\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 3,\n      \"obrazek\": \"https://free-images.com/md/df12/faulty_shelf_lighting_led.jpg\"\n    }\n  },\n  {\n    \"Product\": {\n      \"id\": 2,\n      \"nazev\": \"Vans Old Skool black\",\n      \"description\": \"Tohle prostě musíš mít. Unisex boty Vans Old Skool jsou snad povinnost pro každého skejťáka a rockera tělem i duší. Tradiční konstrukce a vzhled prostě nezklame\",\n      \"cena\": \"1466.00\",\n      \"mena\": \"CZK\",\n      \"published_on\": \"2018-01-15T00:00:00Z\",\n      \"is_published\": false\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 4,\n      \"attribute\": 6,\n      \"product\": 2\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 5,\n      \"attribute\": 11,\n      \"product\": 2\n    }\n  },\n  {\n    \"ProductImage\": {\n      \"id\": 3,\n      \"product\": 2,\n      \"obrazek_id\": 3,\n      \"nazev\": \"hlavní foto\"\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 5,\n      \"nazev\": \"Skladem\"\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 21,\n      \"nazev_atributu_id\": 5,\n      \"hodnota_atributu_id\": 19\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 22,\n      \"nazev_atributu_id\": 5,\n      \"hodnota_atributu_id\": 20\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 6,\n      \"attribute\": 21,\n      \"product\": 2\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 7,\n      \"attribute\": 22,\n      \"product\": 1\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 4,\n      \"obrazek\": \"https://free-images.com/lg/7687/blue_jay_bird_nature.jpg\"\n    }\n  },\n  {\n    \"Product\": {\n      \"id\": 3,\n      \"nazev\": \"Daniel Wellington DW00100164\",\n      \"description\": \"Módní hodinky Daniel Wellington z kolekce Classic Petite Sterling. Ideální doplněk pro ženy upřednostňující analogové a kulaté hodinky\",\n      \"cena\": \"11278.00\",\n      \"mena\": \"CZK\",\n      \"published_on\": \"2017-11-15T00:55:00Z\",\n      \"is_published\": true\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 6,\n      \"nazev\": \"Sleva\"\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 23,\n      \"nazev_atributu_id\": 6,\n      \"hodnota_atributu_id\": 19\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 24,\n      \"nazev_atributu_id\": 6,\n      \"hodnota_atributu_id\": 20\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 8,\n      \"attribute\": 7,\n      \"product\": 3\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 9,\n      \"attribute\": 24,\n      \"product\": 3\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 10,\n      \"attribute\": 21,\n      \"product\": 3\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 11,\n      \"attribute\": 13,\n      \"product\": 3\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 5,\n      \"obrazek\": \"https://free-images.com/or/a09b/watch_time_ladies_watch_0.jpg\"\n    }\n  },\n  {\n    \"ProductImage\": {\n      \"id\": 4,\n      \"product\": 3,\n      \"obrazek_id\": 5,\n      \"nazev\": \"hlavní foto\"\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 3,\n      \"obrazek\": \"https://free-images.com/lg/ff5f/shoe_handmade_shoes_dress.jpg\"\n    }\n  },\n  {\n    \"Product\": {\n      \"id\": 4,\n      \"nazev\": \"Tempish Dream Lady\",\n      \"description\": \"Elegantní, zateplené, pohodlné dámské lední brusle v tradičním bílém provedení. Ideální pro rekreační bruslení. Uvnitř se můžete těšit na anatomickou bandáž s pamětí\",\n      \"cena\": \"986.00\",\n      \"mena\": \"CZK\",\n      \"is_published\": false\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 21,\n      \"hodnota\": \"pánské\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 22,\n      \"hodnota\": \"dámské\"\n    }\n  },\n  {\n    \"AttributeValue\": {\n      \"id\": 23,\n      \"hodnota\": \"dětské\"\n    }\n  },\n  {\n    \"AttributeName\": {\n      \"id\": 7,\n      \"nazev\": \"Určení\",\n      \"zobrazit\": true\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 25,\n      \"nazev_atributu_id\": 7,\n      \"hodnota_atributu_id\": 21\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 26,\n      \"nazev_atributu_id\": 7,\n      \"hodnota_atributu_id\": 22\n    }\n  },\n  {\n    \"Attribute\": {\n      \"id\": 27,\n      \"nazev_atributu_id\": 7,\n      \"hodnota_atributu_id\": 23\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 12,\n      \"attribute\": 26,\n      \"product\": 4\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 13,\n      \"attribute\": 6,\n      \"product\": 4\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 14,\n      \"attribute\": 21,\n      \"product\": 4\n    }\n  },\n  {\n    \"Product\": {\n      \"id\": 2,\n      \"cena\": \"900\"\n    }\n  },\n  {\n    \"Image\": {\n      \"id\": 6,\n      \"obrazek\": \"https://free-images.com/md/faa5/teddy_bear_sheep_toys.jpg\"\n    }\n  },\n  {\n    \"Product\": {\n      \"id\": 5,\n      \"nazev\": \"Funko Pop God of War Kratos\",\n      \"description\": \"Kratos, otec Atrea, se dočkal své vinylové POP! figurky od společnosti Funko.\",\n      \"cena\": \"800\",\n      \"mena\": \"CZK\",\n      \"is_published\": true\n    }\n  },\n  {\n    \"Catalog\": {\n      \"id\": 1,\n      \"nazev\": \"Výprodej 2018\",\n      \"obrazek_id\": 4,\n      \"products_ids\": [\n        1,\n        2,\n        3,\n        4,\n        5\n      ],\n      \"attributes_ids\": [\n        2,\n        4,\n        21,\n        23\n      ]\n    }\n  },\n  {\n    \"ProductImage\": {\n      \"id\": 5,\n      \"product\": 5,\n      \"obrazek_id\": 6,\n      \"nazev\": \"hlavní foto\"\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 15,\n      \"attribute\": 21,\n      \"product\": 5\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 16,\n      \"attribute\": 2,\n      \"product\": 5\n    }\n  },\n  {\n    \"ProductAttributes\": {\n      \"id\": 17,\n      \"attribute\": 27,\n      \"product\": 5\n    }\n  },\n  {\n    \"Catalog\": {\n      \"id\": 1,\n      \"products_ids\": [\n        1,\n        2,\n        3,\n        5\n      ]\n    }\n  }\n]\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/import",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"import"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Model list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/detail/Product",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"detail",
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Model detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/detail/Product/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"detail",
+						"Product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
